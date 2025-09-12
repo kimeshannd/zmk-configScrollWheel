@@ -1,7 +1,7 @@
 if SHIELD_CORNE_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Corne"
+    default "CorneMouseWheel"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
