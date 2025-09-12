@@ -2,15 +2,6 @@
 config ZMK_SPLIT
     default y if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
 
-# Pick exactly one role based on the shield
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y if SHIELD_CORNE_RIGHT
-    default n if SHIELD_CORNE_LEFT
-
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y if SHIELD_CORNE_LEFT
-    default n if SHIELD_CORNE_RIGHT
-
 if ZMK_DISPLAY
 
 config I2C
