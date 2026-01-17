@@ -11,15 +11,6 @@
     quick-tap-ms = <150>;
 };
 
- combos {
-        compatible = "zmk,combos";
-
-        AdjustLayer {
-            bindings = <&mo 4>;
-            key-positions = <37 40>;
-        };
-    };
-
 / {
     behaviors {
         HMR: HMR {
