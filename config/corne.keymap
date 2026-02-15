@@ -123,7 +123,7 @@
 
         Mouse {
             bindings = <
-&trans     &trans  &trans     &trans     &trans     &trans       &studio_unlock  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &mkp MCLK  &trans  &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &mkp LCLK
                               &mkp LCLK  &mkp LCLK  &mkp RCLK    &trans  &trans
