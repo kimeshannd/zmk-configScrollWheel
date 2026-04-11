@@ -27,7 +27,7 @@
     };
 };
 
-&i2c0 {
+&i2c1 {
     status = "okay";
     compatible = "nordic,nrf-twim";
     pinctrl-0 = <&touchpad_i2c_default>;
