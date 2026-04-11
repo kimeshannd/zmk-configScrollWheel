@@ -82,8 +82,8 @@
 
         /* enable later if orientation feels wrong */
         switch-xy;
-        // flip-x;
-        // flip-y;
+        flip-x;
+        flip-y;
     };
 };
 
