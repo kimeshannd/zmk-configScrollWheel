@@ -1,16 +1,16 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
+      url-base: https://github.com/zmkfirmware
+    - name: AYM1607
+      url-base: https://github.com/AYM1607
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      revision: v0.3
       import: app/west.yml
     - name: zmk-driver-azoteq-iqs5xx
-      remote: aym1607
+      remote: AYM1607
       revision: main
   self:
     path: config
