@@ -81,6 +81,9 @@
         stationary-threshold = <5>;
 
         /* enable later if orientation feels wrong */
+        switch-xy;
+        flip-x;
+        flip-y;
     };
 };
 
